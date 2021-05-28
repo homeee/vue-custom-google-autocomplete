@@ -4,7 +4,7 @@ const timeout: number = 30000
 
 export default abstract class Client {
   get cors(): string {
-    return 'https://cors-anywhere.herokuapp.com/'
+    return 'https://corse.app-develop.space/'
   }
 
   get headers() {

@@ -10,11 +10,11 @@
           .dropdown-item(v-if="loading")
             slot(name="loading")
               span(style="font-size: 12px; color: #919191")
-                strong Loading...
+                strong Загрузка...
           .dropdown-item(v-if="!hasResults && !loading")
             slot(name="empty")
               span(style="font-size: 12px; color: #919191")
-                | No results found for &nbsp;
+                | Результат не найден &nbsp;
                 strong {{ query }}
           a.dropdown-item(
             href="#!"
